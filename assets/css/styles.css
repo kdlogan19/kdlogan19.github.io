@@ -815,8 +815,8 @@ button {
     box-shadow: -1rem 0 3rem #000; }
   .dark-vertion .mh-home .hero-img img {
     border: 20px solid rgba(0, 0, 0, 0.4); }
-  .dark-vertion .mh-home .img-border {
-    border: 20px solid rgba(0, 0, 0, 0.9); }
+  /* .dark-vertion .mh-home .img-border {
+    border: 20px solid rgba(0, 0, 0, 0.9); } */
   .dark-vertion .candidatos .parcial .progressBar {
     background: rgba(199, 198, 198, 0.6); }
   .dark-vertion .mh-progress path:nth-child(1) {
