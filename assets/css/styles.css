@@ -1274,20 +1274,21 @@ body {
     line-height: 30px;
     font-weight: 600; }
     .mh-experince .mh-education-deatils .mh-education-item h4 a {
-      font-style: italic;
-      margin-left: 4px;
+      /* font-style: italic; */
+      /* margin-left: 4px; */
       color: #0bceaf; }
   .mh-experince .mh-education-deatils .mh-education-item .mh-eduyear {
     margin: 10px 0;
     color: #0bceaf; }
   .mh-experince .mh-education-deatils .mh-education-item p {
     font-size: 14px;
+    opacity: 1;
     line-height: 23px;
     margin-bottom: 0; }
 
 /*
     ==============
-      EDUCATION
+      EXPERIENCE
     ==============
 */
 .mh-education {
