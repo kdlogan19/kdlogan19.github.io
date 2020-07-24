@@ -173,10 +173,12 @@
                             <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
                                 <ul>
                                     <li><span>Python</span></li>
+                                    <li><span>Javascript</span></li>
                                     <li><span>C++</span></li>
                                     <li><span>Elixir</span></li>
-                                    <li><span>Javascript</span></li>
                                     <li><span>NodeJS</span></li>
+                                    <li><span>React-Native</span></li>
+                                    <li><span>NextJS</span><li>
                                     <li><span>Java</span></li>
                                     <li><span>SQL</span></li>
                                     <li><span>HTML</span></li>
@@ -229,9 +231,18 @@
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <div class="mh-work">
-                                 <h3>Work Experience</h3>
+                                <h3>Work Experience</h3>
                                 <div class="mh-experience-deatils">
-                                    <!-- Education Institutes-->
+                                    <!-- Professional Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Software Engineer Intern<br/><a href="#"></a>Practicum, US</h4>
+                                        <div class="mh-eduyear">Jun 2020 - Aug 2020</div>
+                                        <span>Responsibilities:</span>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>I am a part of Icontribute team. I have been working towards building a react-native app to connect students with volunteer organisations.</li>
+                                        </ul>
+                                    </div>
+
                                     <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
                                         <h4> Assistant System Engineer<br/><a href="#">Tata Consultancy Services</a></h4>
                                         <div class="mh-eduyear">Oct 2017 - Jun 2019</div>
@@ -275,10 +286,89 @@
                 </div>
             </div>
         </section>
-        
         <!--
         ===================
-           PORTFOLIO
+           Past-PROJECTS
+        ===================
+        -->
+        <section class="mh-portfolio" id="mh-portfolio">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                        <h3>Current Projects</h3>
+                    </div>
+                    <div class="part col-sm-12">
+                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="portfolioContainer row">
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                       
+                                        <img src="assets/images/portfolio/icontribute-home2.jpeg" alt="IContribute App Logo">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">React-Native App - IContribute</h5>
+                                            <span class="sub-title">React-Native, Firebase, Redux, Typescript</span>
+                                            <a data-fancybox data-src="#icontribute"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                    <figure>
+                                        <img src="" alt="We got your next side hustle">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">An NextJS App - ILook</h5>
+                                            <span class="sub-title">NextJS, MongoDB</span>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#ilook"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div> 
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                    <figure>
+                                        <img src="assets/images/portfolio/chat-bot.jfif" alt="">
+                                        <figcaption class="fig-caption">
+                                            <i class="fa fa-search"></i>
+                                            <h5 class="title">A Chat-Bot with Intent Classification</h5>
+                                            <span class="sub-title">Python, NodeJS, Express, BERT</span>
+                                            <a href="assets/images/portfolio/g2.png" data-fancybox data-src="#chatbot"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>                  
+                               
+                            </div> <!-- End: .grid .project-gallery -->
+                        </div> <!-- End: .grid .project-gallery -->
+                    </div> <!-- End: .part -->
+                </div> <!-- End: .row -->
+            </div>
+            <div class="mh-portfolio-modal" id="chatbot">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>Chat-Bot with Intent-Classification</h2>
+                            <p>Built a real time chat-bot with personal and group chat functionalities using web-sockets with NodeJS and ExpressJS </p>
+                            <p>Embedded a room with a neural-net model to perform intent classification and slot filling on user queries. </p>
+                            <p>Studied in-depth different Attention models and employed BERT to achieve accuracy of 97.4% on ATIS test set.</p>
+                           <div class="mh-about-tag">
+                                <ul>
+                                    <li><span>Python</span></li>
+                                    <li><span>BERT</span></li>
+                                    <li><span>NodeJS</span></li>
+                                    <li><span>Express</span></li>
+                                </ul>
+                            </div>
+                            <a href="https://github.com/kdlogan19/Chat-Bot-for-flight-queries" class= "col-sm-8" target="_blank"><i class="fa fa-github fa-2x" >   Repository </i></a>
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="mh-portfolio-modal-img">
+                                <!--<img src="assets/images/portfolio/Wayne.png" alt="" class="img-fluid"> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--
+        ===================
+           Past-PROJECTS
         ===================
         -->
         <section class="mh-portfolio" id="mh-portfolio">
